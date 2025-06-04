@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+
+* {
+  box-sizing: border-box;
+  /* padding: 0; */
+  /* margin: 0; */
+}
+
+body {
+  font-family: "Inter", "Poppins", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  overflow-x: hidden;
+  /*  overflow-y: auto; */
+  /* background-color: #06070a; */
+  color: #171717;
+}
+
+@tailwind base;
+
+@layer base {
+  html {
+    --color-color1: #1d4354;
+    --color-color2: #f0f7f5;
+  }
+
+  body {
+    font-family: "Poppins";
+  }
+
+  p {
+    /* white-space: pre-line; */
+    /* color: var(--color-gray1); */
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@keyframes linkAnimate {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  95% {
+    transform: scale(0.9);
+  }
+}
+
+.link-animate {
+  animation: linkAnimate 2s ease-out infinite;
+}
+
+.main-bg {
+  background-image: url("/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-bg {
+  background: radial-gradient(40% 40% at 50% 50%, #7f67f880 0%, #0011ab00 100%);
+}
+
+.input-bg {
+  background: radial-gradient(
+    84.86% 84.86% at 50% 15.14%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(204, 204, 204, 0.02) 50%,
+    rgba(255, 255, 255, 0.03) 82%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+}
+
+.subscribe-bg {
+  background-image: url('/images/subscribe-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid #333333;
+}
+
+.contactus-bg {
+  background-image: url('/images/contactus-bg.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right;
+  border-bottom: 1px solid #333333;
+}
