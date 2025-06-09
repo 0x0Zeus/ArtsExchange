@@ -42,9 +42,9 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="container mx-auto">
-        <div className="grid gap-6 px-4 md:px-16 py-[40px] md:py-[102px] md:grid-cols-2">
-          <div className="rounded-xl bg-white px-6 md:px-[44px] py-8 md:py-12 flex flex-col gap-8 md:gap-0 md:justify-between">
-            <div className="flex items-center gap-4 md:gap-7">
+        <div className="grid gap-6 px-4 md:px-16 py-[40px] md:py-[102px] lg:grid-cols-2">
+          <div className="rounded-xl bg-white px-6 md:px-[44px] py-8 md:py-12 flex flex-col gap-8 md:gap-8 md:justify-start">
+            {/* <div className="flex items-center gap-4 md:gap-7">
               <div className="h-[50px] w-[50px] md:h-[68px] md:w-[68px] shrink-0 content-center rounded-full border border-[#ffffff]/40 bg-[#050520] text-center">
                 <img
                   src="/icons/phone.png"
@@ -56,7 +56,7 @@ const ContactUs = () => {
                 <p className="text-xl md:text-2xl leading-[32px] md:leading-[48px]">Phone</p>
                 <p className="text-lg md:text-xl leading-[24px] md:leading-[32px]">+1 234 567 8900</p>
               </div>
-            </div>
+            </div> */}
             <div className="flex items-center gap-4 md:gap-7">
               <div className="h-[50px] w-[50px] md:h-[68px] md:w-[68px] shrink-0 content-center rounded-full border border-[#ffffff]/40 bg-[#050520] text-center">
                 <img
@@ -70,7 +70,7 @@ const ContactUs = () => {
                 <p className="text-lg md:text-xl leading-[24px] md:leading-[32px]">VV, LLC Company</p>
               </div>
             </div>
-            <div className="flex items-center gap-4 md:gap-7">
+            {/* <div className="flex items-center gap-4 md:gap-7">
               <div className="h-[50px] w-[50px] md:h-[68px] md:w-[68px] shrink-0 content-center rounded-full border border-[#ffffff]/40 bg-[#050520] text-center">
                 <img src="/icons/map.png" className="mx-auto w-5 md:w-7" alt="map" />
               </div>
@@ -80,7 +80,7 @@ const ContactUs = () => {
                   90 Richmond Hill road, 1M S.I, New York 10314
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="space-y-4 md:space-y-6 rounded-xl bg-white p-4 md:p-6 font-spaceGrotesk text-[#0f0f0f]">
             <div className="">
